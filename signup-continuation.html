@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-continuation</title>
+    <link rel="stylesheet" href="signup-continuation.css">
+</head>
+<body>
+    <div class="split-screen">
+        <div class="left">
+            <section class="copy">
+                <img src="logo.png" alt="logo pic" class="logo""><br>
+                <h1>Hey, <em>Wryter</em></h1>
+            </section>
+        </div>
+        
+
+        <div class="right">
+            <form action="signup.html">
+                <section class="copy">
+                    <h2>Create a Account</h2>
+                </section>
+
+
+                <div class="input container name">
+                    <label for="displayname">Display Name</label>
+                    <input id="displayname" name="displayname" type="text" placeholder="@" required>
+                </div>
+
+
+                <div class="input container dob">
+                    <label for="dob">Date Of Birth</label>
+                    <input id="dob" name="dob" type="date" required>
+                </div>
+
+
+                <div class="input container tel">
+                    <label for="tel">Phone Number</label>
+                    <input id="tel" name="tel"  type="tel" placeholder="+" >
+                </div>
+
+                <div>
+                    <label for="gender">Gender</label>
+                    <select class="dropdown" id="gender" name="gender">
+                        <option id="male" value="male">Male</option>
+                        <option id="female" value="female">Female</option>
+                        <option id="rna" value="rna">Rather Not to Say</option>
+                        <option id="custom" value="custom">custom</option>
+                    </select>
+                </div>
+                
+                <button class="back-btn" type="submit">back</button>
+                <button class="signup-btn" type="submit">Submit</button>
+
+                
+
+                <section class="copy-legal">
+                    <p><span class="small">By continuing, you agree to our <br>
+                    <a href="#">Privacy Policy</a> &amp; <a href="#">Terms Of Service</a>.</span></p>
+                </section> 
+
+
+
+                
+                
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
