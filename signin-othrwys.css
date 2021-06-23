@@ -1,0 +1,157 @@
+:root{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-green: #2BDDB9
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat",'san-serif';
+    font-weight: 500;
+}
+.logo{
+    width: 100px;
+    transition: 0.3s;
+}
+.logo:hover{
+    transform: scale(1.234)
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+h2{
+    margin-top: -10px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-green);
+}
+.copy p{
+    margin-top: -40px;
+}
+
+
+.signup-othrwys a{
+    color: var(--primary-green);
+    text-decoration: none;
+}
+.signup-othrwys a:hover{
+    text-decoration: underline;
+}
+.login-container{
+    margin-top: -30px;
+}
+
+.login-container a{
+    text-decoration: none;
+    color: var(--primary-green);
+}
+.login-container a:hover{
+    text-decoration: underline;
+}
+
+
+.copy-legal{
+    margin-bottom: -50px;
+}
+.copy-legal a{
+    
+    text-decoration: none;
+    color: var(--primary-green);
+}
+.copy-legal a:hover{
+    text-decoration: underline;
+}
+.small{
+    font-size: 80%;
+    text-align: center;
+    
+}
+
+
+
+
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    height: 200px;
+}
+.left, .right{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background: linear-gradient(-45deg,#e9dc26,#e926d9);
+    background-size: cover;
+    
+}
+.left .copy{
+    color: white;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.left p{
+    font-size: 1;
+    font-weight: 400;
+}
+.right .copy{
+    color: black;    
+    text-align: center;
+}
+.right .copy p{
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+}
+
+.right button {
+    display: block;
+    width: 100%;
+    background: var(--primary-green);
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+.right button:hover{
+    background: linear-gradient(-45deg,#e9dc26,#e926d9);
+    cursor: pointer;
+    
+
+}
+
+
+/*media queries*/
+
+@media screen and (min-width:900px){
+    .split-screen{
+        flex-direction: row;
+        height: 100vh;
+    }
+    .left, .right{
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
